@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-$()
-=======
+
 $(document).ready(function() {
 	var height = $( document ).height()+"px";
 	console.log(height);
@@ -27,4 +25,3 @@ $(document).ready(function() {
         });
     });
 });
->>>>>>> 2f879d5c63a75e056d2890f40f9c03c823c27b3e
