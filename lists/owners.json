@@ -1,0 +1,28 @@
+{
+    "owners": [
+      {
+      	"id":"01",
+        "name": "Robert Robbinson",
+        "location": "123 Main St",
+        "dogSize": "large"
+      },
+      {
+      	"id":"02",
+        "name": "Dave Daverson",
+        "location": "1313 Mockingbird Lane",
+        "dogSize": "small"
+      },
+      {
+      	"id":"03",
+        "name": "John Johnson",
+        "location": "a dumpster",
+        "dogSize": "Tiny"
+      },
+      {
+      	"id":"04",
+        "name": "Bill Billerson",
+        "location": "3939 Easy St",
+        "dogSize": "Large"
+      }
+    ]
+  }

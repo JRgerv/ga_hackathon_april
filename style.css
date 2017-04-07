@@ -4,10 +4,10 @@
 	right:  0px;
 }
 #map {
-  height: 100%;
-  width: 600px;
+  height: 600px;
+  width: 800px;
   right: 0px;
-  margin: 0px;
+  margin: 0px auto;
   padding: 0px;
 }
 .dog {
