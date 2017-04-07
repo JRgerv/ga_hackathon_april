@@ -4,25 +4,29 @@
         "name": "Robert Robbinson",
         "location": "4350 SW Spokane St",
         "latLong": "47.5720208,-122.3896311",
-        "yardSize": "large"
+        "yardSize": "large",
+        "image": "yard1"
       },
       {
         "name": "Dave Daverson",
         "location": "3830 51st Ave SW",
         "latLong": "47.5685036,-122.3996543",
-        "yardSize": "small"
+        "yardSize": "small",
+        "image": "yard2"
       },
       {
         "name": "John Johnson",
         "location": "4142 44th Ave SW",
         "latLong": "47.5651896,-122.3900415",
-        "yardSize": "medium"
+        "yardSize": "medium",
+        "image":"yard3"
       },
       {
         "name": "Bill Billerson",
         "location": "3898 SW Andover St",
         "latLong": "47.5683622,-122.3836764",
-        "yardSize": "large"
+        "yardSize": "large",
+        "image": "yard4"
       }
     ]
   }

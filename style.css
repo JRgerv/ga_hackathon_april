@@ -6,14 +6,39 @@
 	width: 600px;
 	right:  0px;
 }
-#map {
+.header{
+	height: 200px;
+	width: 100%;
+	display: block;
+}
+.wrapper{
+	display: flex;
+	align-items: stretch;
+}
+.searchResults{
+	display: inline-flex;
+	width: 50%;
+}
+ul{
+	display: inline-block;
+	width: 100%;
+}
+.list-group-item{
+	max-width: 45%;
+	display: inline-block;
+	border: 0px;
+}
+.map {
+	display: inline-flex;
   height: 600px;
-  width: 800px;
-  right: 0px;
-  margin: 0px auto;
+  width: 50%;
+  right: 1px;
+  margin: 0px;
   padding: 0px;
 }
-
+.yardImage{
+	max-width: 300px;
+	border-radius: 20px;
 }
 .pull-left {
   float: left !important;

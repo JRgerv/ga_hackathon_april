@@ -1,22 +1,52 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>Dog Thing</title>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfCoX4S_TD87mxDG7jb4x5NNlchRumBZo"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfCoX4S_TD87mxDG7jb4x5NNlchRumBZo"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript" src="./map.js"></script>
     <script type="text/javascript" src="./script.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
+
 <body>
-<div id="map"></div>
-<button id="yards">Yard Owners</button>
-<div style="height:200px;">
-	<ul class="yarders list-group">
-	</ul>
-</div>
+    <div class="navbar ">
+      <div class='container-fluid'>
+        <div class="navbar-header">
+          <a class='navbar-brand' href="./index">BRAND</a>
+        </div>
+        <a class="btn btn-warning pull-right navbar-btn" href="#">Login</a>
+        <a class="btn btn-success pull-right navbar-btn" href="#">Sign-up</a>
+      </div>
+    </div>
+    <div class="refine">
+    <div class="zip">
+    	
+    </div>
+    <div class="date">
+    	
+    </div>
+    <div class="sTime">
+    	
+    </div>
+    <div class="eTime">
+    	
+    </div>
+    <button>SEARCH</button>
+    </div>
+<div class=wrapper>
+    <div class="searchResults">
+
+            <ul class="yarders list-group">
+            </ul>
+
+    </div>
+    <div id="map" class="map"></div>
+    </div>
 </body>
+
 </html>
