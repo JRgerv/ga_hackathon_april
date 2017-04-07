@@ -100,3 +100,18 @@ a {
   position:absolute;
   bottom: 0!important;
   right: 0!important;
+}
+.well:hover {
+  background-color: lightgreen;
+  color: white;
+}
+.bg {
+  background-color: lightgreen;
+  color: white;
+}
+.inline {
+  display: inline;
+}
+.grey {
+   background-color: lightgrey;
+}
