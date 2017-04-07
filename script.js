@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
     $("#dogs").click(function() {
         $.getJSON("lists/owners.json", function(result) {
