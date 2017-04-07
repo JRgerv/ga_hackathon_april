@@ -1,0 +1,24 @@
+.dog {
+
+  background-color: RGB(63,187,54);
+}
+.yard {
+
+    background-color: RGB(255,220,80);
+}
+.pull-left {
+  float: left !important;
+}
+.pull-right {
+  float: right !important;
+}
+.panel {
+  margin-top: 300px !important;
+  bottom:0;
+  margin:0 auto;
+  width:75%;
+}
+.row {
+    margin-bottom: 120px !important;
+
+}
