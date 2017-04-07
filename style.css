@@ -1,0 +1,12 @@
+#mapWrap{
+	height: 100%;
+	width: 600px;
+	right:  0px;
+}
+#map {
+  height: 100%;
+  width: 600px;
+  right: 0px;
+  margin: 0px;
+  padding: 0px;
+}
