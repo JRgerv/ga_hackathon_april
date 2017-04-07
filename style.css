@@ -1,5 +1,5 @@
 .container {
-  width: 100vh;
+  width: 100%;
 }
 #mapWrap{
 	height: 100%;
@@ -74,4 +74,3 @@ a {
   position:absolute;
   bottom: 0!important;
   right: 0!important;
-}
