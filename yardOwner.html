@@ -15,37 +15,47 @@
 
 <body>
     <div class="navbar ">
-      <div class='container-fluid'>
-        <div class="navbar-header">
-          <a class='navbar-brand' href="./index">BRAND</a>
+        <div class='container-fluid'>
+            <div class="navbar-header">
+                <a class='navbar-brand' href="./index">BRAND</a>
+            </div>
+            <a class="btn btn-warning pull-right navbar-btn" href="#">Login</a>
+            <a class="btn btn-success pull-right navbar-btn" href="#">Sign-up</a>
         </div>
-        <a class="btn btn-warning pull-right navbar-btn" href="#">Login</a>
-        <a class="btn btn-success pull-right navbar-btn" href="#">Sign-up</a>
-      </div>
     </div>
     <div class="refine">
-    <div class="zip">
-    	
+        <div class="zip">
+            <p>Zip Code</p>
+            <input type="zip" value="98101">
+        </div>
+        <div class="date">
+            <p class=" text-center">April</p>
+            <ul class="days">
+            <li class=" text-center">M<br>3rd</li>
+            <li  class=" text-center list-group-item-warning">T<br>4th</li>
+            <li class=" text-center">W<br>5th</li>
+            <li class=" text-center">T<br>6th</li>
+            <li class=" text-center">F<br>7th</li>
+            <li class=" text-center">S<br>8th</li>
+            <li class=" text-center">S<br>9th</li>
+            </ul>
+        </div>
+        <div class="time">
+            <p class=" text-center">Start Time</p>
+            <input type="time" name="start" value = "09:00">
+        </div>
+        <div class="time">
+            <p class=" text-center">End Time</p>
+            <input type="time" name="start" value = "10:30">
+        </div>
+        <button class="btn searchBtn">SEARCH</button>
     </div>
-    <div class="date">
-    	
-    </div>
-    <div class="sTime">
-    	
-    </div>
-    <div class="eTime">
-    	
-    </div>
-    <button>SEARCH</button>
-    </div>
-<div class=wrapper>
-    <div class="searchResults">
-
+    <div class=wrapper>
+        <div class="searchResults">
             <ul class="yarders list-group">
             </ul>
-
-    </div>
-    <div id="map" class="map"></div>
+        </div>
+        <div id="map" class="map"></div>
     </div>
 </body>
 

@@ -14,7 +14,7 @@ $(document).ready(function() {
         	console.log("got data");
             $.each(result, function(owners, field) {
                 $.each(field, function(i, passing) {
-                        $(".yarders").append("<li class='list-group-item'><img class='yardImage' alt='yard' src='./images/"+passing.image+".jpg'><p><strong>"+passing.location+"</strong></p></li>");
+                        $(".yarders").append("<li class='list-group-item'><img class='yardImage' alt='yard' src='./images/"+passing.image+".jpg'><p> $"+passing.price+" <strong>"+passing.location+"</strong></p></li>");
                 });
             });
         });
