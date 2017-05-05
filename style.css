@@ -115,3 +115,9 @@ a {
 .grey {
    background-color: lightgrey;
 }
+.center-block {
+  position: absolute;
+  bottom: 5px;
+  right: 10%;
+  color: #775f00;
+}
